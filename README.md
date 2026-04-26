@@ -20,6 +20,6 @@ src/app/app.tsx
 - Создать несколько счетчиков
 - Подписаться на них
 
-event-track('1') => store-tracked: ['1']
-event-track('2') => store-tracked: ['2'] ❌ (должно быть ['1', '2'])
-event-track('3') => store-tracked: ['2', '3'] ❌ (должно быть ['1', '2', '3'])
+- event-track('1') => store-tracked: ['1']
+- event-track('2') => store-tracked: ['2'] ❌ (должно быть ['1', '2'])
+- event-track('3') => store-tracked: ['2', '3'] ❌ (должно быть ['1', '2', '3'])
