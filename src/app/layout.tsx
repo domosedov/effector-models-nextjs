@@ -1,9 +1,9 @@
-import './globals.css'
 import { EffectorNext } from '@effector/next'
 import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core'
 import type { Metadata } from 'next'
 
 import '@mantine/core/styles.css'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
