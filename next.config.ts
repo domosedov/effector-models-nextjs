@@ -4,7 +4,15 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   reactStrictMode: true,
   experimental: {
-    swcPlugins: [['@effector/swc-plugin', {}]],
+    swcPlugins: [
+      [
+        '@effector/swc-plugin',
+        {
+          transformLegacyDomainMethods: false,
+          factories: ['@effector-kit/models', '@effector-kit/react'],
+        },
+      ],
+    ],
   },
 }
 
